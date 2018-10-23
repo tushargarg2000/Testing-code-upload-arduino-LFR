@@ -6,10 +6,12 @@
 
 void setup() {
  
- pinMode(m1f, OUTPUT); // for motors
+//for motors 
+ pinMode(m1f, OUTPUT);
  pinMode(m1b, OUTPUT);
  pinMode(m2f, OUTPUT);
  pinMode(m2b, OUTPUT);
+ 
    
    pinMode(A3, INPUT); // for s2,s3,s4 IR sensors in the strip
    pinMode(A1, INPUT);
